@@ -73,8 +73,8 @@ frequences_lettres_chiffre=analyse_frequentielle(texteChiffreSubstitution)
 frequences_lettres_chiffre_tri = sorted(frequences_lettres_chiffre.items(), key=lambda item: item[1], reverse=True)
 print(frequences_lettres_chiffre_tri)
 
-table = str.maketrans("REZABNDSHJMOTKLQPIFGPVCXYU",
-                      "EZAUN1S2RM3THLQDIVOPIC5BGY")
+table = str.maketrans("REZADSOTKMHYGQJPIWFBNVXLCU",
+                      "EZAUS3THL5RGPDMIVFON7CBQXY")
 
 # Appliquer la traduction
 nouveau_texte = texteChiffreSubstitution.translate(table)
